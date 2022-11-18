@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Universidad {
 
-	private final ArrayList<Trabajador> trabajadores = new ArrayList<Trabajador>();
-	private final ArrayList<Facultad> facultades = new ArrayList<Facultad>();
+	private final ArrayList<Trabajador> trabajadores = new ArrayList<>();
+	private final ArrayList<Facultad> facultades = new ArrayList<>();
 	public List<Profesor> obtenerPNombre(String nombre) {
 		ArrayList<Profesor> profesores = new ArrayList<>();
 		for (Facultad facultad : this.facultades) {
