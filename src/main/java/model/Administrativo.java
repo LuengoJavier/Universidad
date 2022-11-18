@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Administrativo extends Trabajador {
 
-	public Administrativo(String nombre, String rut, String estadoCivil, String tituloP, _horario___String direccion) {
-		throw new UnsupportedOperationException();
+	public Administrativo(String nombre, String rut, String estadoCivil, String tituloP, String horario,String direccion) {
+		super(nombre,rut, estadoCivil, tituloP, horario, direccion);
 	}
 
 	public String getTipo() {
